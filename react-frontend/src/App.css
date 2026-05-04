@@ -1,0 +1,96 @@
+
+.login-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url('https://img.freepik.com/free-vector/students-with-diplomas-celebrating-graduation-campus-park_1262-20691.jpg?t=st=1741136550~exp=1741140150~hmac=8aea546d286af87a0b3213ddef26f1235ec2980761266e0b8a82e12cfd12f015&w=1380') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  color: #333;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+ 
+}
+
+.header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.header p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.form input {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: #34e89e;
+  box-shadow: 0 0 8px rgba(52, 232, 158, 0.2);
+}
+
+.form button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background: #34e89e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form button:hover {
+  background: #0f3443;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ff4444;
+}
+
+.footer p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.footer span {
+  color: #34e89e;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer span:hover {
+  color: #0f3443;
+}

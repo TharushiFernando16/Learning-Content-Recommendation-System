@@ -1,0 +1,16 @@
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Node.js-related files
+node_modules/
+build/
+
+# OS or IDE-specific files
+.DS_Store
+Thumbs.db
+.vscode/
